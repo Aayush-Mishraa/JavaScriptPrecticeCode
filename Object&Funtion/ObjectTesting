@@ -1,0 +1,31 @@
+//creating the object using the class: lastest js:Es6
+
+class product{
+    constructor(name, price){
+        this.name = name;
+        this.price = price;
+
+    }
+
+
+}
+
+//creat the object of the product using new keywords:
+//whenever creating the object coustructer will call
+
+let  p1 = new product('macbook', 1000);
+
+console.log(p1.name)
+console.log(p1.price)
+
+//create an oobject without a referenc name 
+
+new product('iphone', 2000);
+new product('iphone', 2000);
+
+//there is no gc method in js
+
+let prName = new product('mouse', 100).name;
+console.log(prName)
+let prprice = new product('mouse', 100).name;
+console.log(prprice)

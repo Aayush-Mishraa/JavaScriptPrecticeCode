@@ -1,0 +1,12 @@
+{
+  "name": "javascriptprecticecode",
+  "version": "1.0.0",
+  "description": "This my JavaScript prectice project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aayush Mishra",
+  "license": "ISC"
+}
