@@ -1,0 +1,23 @@
+let score = [84,67,41,90,56,78,88,92];
+
+//get the pasing score >70 add 5 marks as bouns ANDcaculate THE AVARAGE
+
+
+let passingScore = score.filter(ele => ele > 70).map(ele => ele + 5);
+let averageScore = passingScore.reduce((total, mark) => total + mark, 0) / passingScore.length;
+console.log(averageScore); // Average of passing scores with bonus marks
+
+
+
+//ecom example
+let prices = [100, 200, 300, 400, 500];
+
+//find the lower price condition less then 300 also apply 10 % discount then give the total 
+let discountedPrices = prices.filter(price => price < 300).map(price => price * 0.9);
+let totalDiscountedPrice = discountedPrices.reduce((total, price) => total + price, 0);
+console.log(totalDiscountedPrice); // Total of discounted prices below 300
+
+let dist = ['selenium', 'cypress', 'playwright', 'testcafe', 'js', 'git'];
+
+//get the long word(greater then 4 ) then convert to uppercase and combine them with a -p
+dist.filter
